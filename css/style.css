@@ -50,6 +50,20 @@ body{
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+.slider{
+  background-color: black;
+}
+.slider img {
+  margin: 0 auto;
+  
+  max-width: 100%;
+  overflow:hidden;
+  vertical-align: middle;
+}
+
+.bx-wrapper{
+  background-color: black;
+}
 
 iframe{
   width: 75%;
@@ -75,7 +89,7 @@ h1{
   padding: 10px 10px 10px 10px;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 500px){
   #ca_content{
     width: 95%;
     margin: 0% auto;
@@ -83,9 +97,10 @@ h1{
     padding-left: 2.5%;
     padding-right: 2.5%;
   }
+
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 750px){
   iframe{
     width: 75%;
   }
@@ -99,6 +114,7 @@ h1{
     padding-right: 5%;
     margin-bottom: 5%;
   }
+
 }
 @media screen and (min-width: 1305px) {
   iframe{
@@ -184,7 +200,7 @@ h1{
   padding-bottom: 2px;
 }
 #interests_box{
-    text-align: center;
+  text-align: center;
 }
 #interests_box p{
   font-size: 10px;
