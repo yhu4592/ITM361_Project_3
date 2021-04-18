@@ -1,1 +1,2 @@
-# ITM361_Project_3
+ITM361 Project 3
+Yongkang Hu
