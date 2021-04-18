@@ -44,20 +44,17 @@ body{
 
 /* Canada*/
 #ca_content{
-  margin-top: 5%;
-  margin: 1% auto;
-  text-align: center;
-  width: 45%;
-  padding-left: 5%;
-  padding-right: 5%;
   background-color: rgb(175, 255, 255);
-  box-shadow: 10px 10px rgb(87, 87, 87);
-  margin-bottom: 5%;
-  border: 1px solid black;
+  margin: 0 auto;
+  width: 95%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
-#canada .heading{
-  font-weight: bold;
+
+iframe{
+  width: 75%;
 }
+
 #canada{
   background-color: lightcyan;
   color:black;
@@ -67,17 +64,49 @@ body{
 h1{
   font-size: 100px;
   padding: 20px 20px 20px 20px;
-}
+  }
+
 #canada h2{
   text-decoration: underline;
   font-weight: bold;
 }
+
 .title{
-    padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
-#canada p{
-  width: 900px;
-  margin: 0 auto;
+
+@media screen and (min-width: 650px){
+  #ca_content{
+    width: 95%;
+    margin: 0% auto;
+    text-align: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  iframe{
+    width: 75%;
+  }
+  #ca_content{
+    width: 75%;
+    box-shadow: 10px 10px rgb(87, 87, 87);
+    margin-top: 5%;border: 1px solid black;
+    margin: 1% auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 1305px) {
+  iframe{
+    width:100%;
+  }
+  #ca_content{
+    width: 45%;
+  }
 }
 
 /*About Me*/
