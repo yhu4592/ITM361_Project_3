@@ -55,7 +55,6 @@ body{
 }
 .slider img {
   margin: 0 auto;
-  
   max-width: 100%;
   overflow:hidden;
   vertical-align: middle;
@@ -91,11 +90,21 @@ h1{
 
 @media screen and (min-width: 500px){
   #ca_content{
-    width: 95%;
+    width: 90%;
     margin: 0% auto;
     text-align: center;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  }
+  #ca_content p{
+    padding-bottom: 5%;
+    font-size: 20px;
+  }
+
+  #ca_content h2{
+    padding-bottom: 5%;
+    font-size: 25px;
   }
 
 }
@@ -112,9 +121,17 @@ h1{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    margin-bottom: 5%;
   }
 
+  #ca_content p{
+    padding-bottom: 2.5%;
+    font-size: 17px;
+  }
+
+  #ca_content h2{
+    padding-bottom: 2.5%;
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1305px) {
   iframe{
