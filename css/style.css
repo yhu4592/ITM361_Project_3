@@ -253,3 +253,10 @@ h1{
   width: 760px;
   float:left;
 }
+
+/* Map */
+#map {
+  margin: 10px auto;
+  height: 500px;
+  width: 700px;
+}
