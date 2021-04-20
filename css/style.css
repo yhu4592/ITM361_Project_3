@@ -127,8 +127,6 @@ h1{
     border: 3px solid black;
     margin: 1% auto;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
   }
 
   #ca_content p{
@@ -141,6 +139,7 @@ h1{
     font-size: 20px;
   }
 }
+
 @media screen and (min-width: 1305px) {
   iframe{
     width:100%;
