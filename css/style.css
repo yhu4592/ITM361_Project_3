@@ -50,9 +50,11 @@ body{
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+
 .slider{
   background-color: black;
 }
+
 .slider img {
   margin: 0 auto;
   max-width: 100%;
@@ -60,8 +62,12 @@ body{
   vertical-align: middle;
 }
 
-.bx-wrapper{
-  background-color: black;
+.bx-wrapper {
+  -moz-box-shadow: 0 0 5px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 5px rgb(0, 0, 0);
+  box-shadow: 0 0 5px #ccc;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
 
 iframe{
@@ -116,7 +122,8 @@ h1{
   #ca_content{
     width: 75%;
     box-shadow: 10px 10px rgb(87, 87, 87);
-    margin-top: 5%;border: 1px solid black;
+    margin-top: 5%;
+    border: 3px solid black;
     margin: 1% auto;
     text-align: center;
     padding-left: 5%;
