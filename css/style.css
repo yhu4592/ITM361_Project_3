@@ -119,6 +119,7 @@ h1{
   iframe{
     width: 75%;
   }
+
   #ca_content{
     width: 75%;
     box-shadow: 10px 10px rgb(87, 87, 87);
@@ -279,10 +280,19 @@ h1{
 }
 
 /* Map */
-#map {
+#holder {
+  width: 800px;
+  height: auto;
   margin: 10px auto;
+  padding: 10px;
+  position: relative; 
+  background-color: #414141;
+}
+
+#map {
+  margin: 0 auto;
   height: 500px;
-  width: 700px;
+  width: 100%;
 }
 
 .gm-style h1{
